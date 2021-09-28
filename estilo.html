@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Atividade 2 Web</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src='main.js'></script>
+</head>
+<body>
+  <div class='container'>
+    <div class='nav'>
+      <img src="public/eu.jpg" alt="Eu :D" height="250px" style="border-radius: 50%;">
+    </div>
+    <div class='section'>
+      <h1>Avaliação 2, fazer seu portfólio!! 📋</h1>
+      <div class='title' style="margin: 10px 0;">
+        <h3>Olá, meu nome é Iury França, prazer! 😄</h3>
+      </div>
+      <div class='container-form'>
+        <form name="frmTeste" method="post" action="#" onsubmit="return validaForm(this);">
+          <p>Validação de formulário</p>
+          <p>Nome: <input type="text" name="nome" id="nome" /></p>
+          <p>Email: <input type="text" name="email" id="email" /></p>
+          <p style="padding: 15px 0">Sexo:
+            <label><input type="radio" name="sexo" value="M" id="femi" /> Feminino</label>
+           <label><input type="radio" name="sexo" value="F" id="masc" /> Masculino</label>
+          </p>
+          <p>Profissão
+            <select name="cargo">
+              <option value="">Selecione o cargo</option>
+              <option value="programador">Programador</option>
+              <option value="designer">Designer</option>
+              <option value="tester">Tester</option>
+              <option value="todas">Todas</option>
+           </select>
+          </p><label><input class="button button1" type="submit" name="sbt" value="Enviar" /></label></p>
+        </form>
+      </div>
+      <div class='footer'>
+        Contato: (69) 993201115 ☎️ <br>
+        Email: iurygfranca@gmail.com 📧 <br>
+        GitHub: https://github.com/iuryfranca 📷
+      </div>
+    </div>
+  </div>
+</body>
+</html>

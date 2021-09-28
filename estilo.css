@@ -1,0 +1,110 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  padding: 15px;
+  margin: 50px 150px;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.button {
+  display: grid;
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+background-color: white;
+color: black;
+border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+background-color: #4CAF50;
+color: white;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color:#f2f2f2;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, strong {
+  font-weight: 600;
+}
+
+body {
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+}
